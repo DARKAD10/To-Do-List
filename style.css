@@ -1,0 +1,77 @@
+*{
+    background-color: rgb(85, 213, 213);
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 2rem auto;
+}
+#back{
+    display: block;
+    border: 1px solid rgb(rgb(139, 26, 26), green, rgb(25, 25, 113));
+   
+}
+
+#taskList{
+   
+  margin-top: 1.5rem;
+   
+   
+    size:100px;
+  
+
+}
+#taskInput{
+   
+}
+
+/* #taskList   li {
+  display:none; 
+  margin: 1rem auto;
+  } */
+
+  #taskList.show li {
+    display: block;
+  }
+
+/* li {
+    font-size: 1.5rem;
+    margin:3rem 0;
+    margin-right: 10px;
+    margin-left: 65px;
+    padding-right: 10px;
+} */ */
+a{
+    text-decoration: none;
+    color: rgb(98, 19, 19);
+    transition: background-color 0.3s ease;
+}
+
+#all{
+    text-align: center;
+}
+
+ a:hover{
+    background-color: rgb(57, 48, 48);
+    color: rgb(255, 255, 255); 
+ }  
+#add{
+    color: rgb(98, 19, 19);
+    transition: background-color 0.1s ease-out;
+}
+
+
+button:hover{
+    background-color: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
+}
+
+#back{
+  display: inline;
+  
+    margin:0 auto;
+  
+}
